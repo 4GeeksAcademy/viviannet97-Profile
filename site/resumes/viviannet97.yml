@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue-light"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Viviannet
+    last_name: Soto
+    
+    # Define yourself in 4-5 words
+    motto: Making the opportunities
+    
+    # focus
+    focus: Learning and development 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      I graduated at 2020 in University in Cuba, came here at 2022, just beginning my career.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/viviannet97
+
+    # Contact Information
+    email: viviannet97@gmail.com #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: viviannet97
+    
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+     
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+      - item: Hiking
+      - item: Photography
+
+      
+
+# Your previous education
+education:
+    - degree: BSc of Telecomunications and Electronic Engineering
+      university: University of Oriente, Cuba
+      
+      time: 2015 - 2020
+     # details: |
+     
+    
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: N/A
+     
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%
